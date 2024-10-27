@@ -18,6 +18,5 @@ public class conectaDAO {
             JOptionPane.showMessageDialog(null, "Erro ConectaDAO" + erro.getMessage());
         }
         return conn;
-    }
-    
+    } 
 }
