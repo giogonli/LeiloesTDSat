@@ -9,7 +9,7 @@ public class cadastroVIEW extends javax.swing.JFrame {
     public cadastroVIEW() {
         initComponents();
     }
-
+   
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -154,7 +154,7 @@ public class cadastroVIEW extends javax.swing.JFrame {
     }//GEN-LAST:event_btnProdutosActionPerformed
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(() -> {
-        new cadastroVIEW().setVisible(true);  // Tela principal definida
+        new cadastroVIEW().setVisible(true);  // Commit Tela Principal definida
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
