@@ -127,13 +127,13 @@ public class listagemVIEW extends javax.swing.JFrame {
             int id = Integer.parseInt(id_produto_venda.getText());
             ProdutosDAO produtosdao = new ProdutosDAO();
 
-            produtosdao.venderProduto(id);  // Chama o método para atualizar o status
+            produtosdao.venderProduto(id);  // Chama o método para atualizar o status e informar referente ao produto
             listarProdutos();  // Atualiza a lista após a venda
 
         } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(this, "ID inválido. Digite um número.");
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(this, "Erro ao vender produto: " + e.getMessage());
+            JOptionPane.showMessageDialog(this, "Erro ao vender produto: " + e.getMessage()); // Mensagem de erro
         }
     }//GEN-LAST:event_btnVenderActionPerformed
 
